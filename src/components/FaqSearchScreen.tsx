@@ -28,6 +28,16 @@ const INITIAL_ITEMS: IndexableItem[] = [
   ...INITIAL_LINKS.map<IndexableItem>((item) => ({ kind: 'link', ...item })),
 ];
 
+/**
+ * Tamanho mínimo da query (em chars, após trim) para disparar a busca.
+ *
+ * Com prefix match habilitado, queries muito curtas (1-2 chars) expandem
+ * pra muitos termos do índice e poluem o resultado. 3 chars dá um piso
+ * razoável: tokens como "pix", "pag", "wif" já são úteis e específicos
+ * o bastante pra ranquear bem.
+ */
+const MIN_QUERY_LENGTH = 3;
+
 export function FaqSearchScreen() {
   const [items, setItems] = useState<IndexableItem[]>(INITIAL_ITEMS);
   const [query, setQuery] = useState('');
@@ -51,7 +61,7 @@ export function FaqSearchScreen() {
 
   const hits = useMemo<BM25SearchHit[]>(() => {
     const trimmed = query.trim();
-    if (trimmed.length < 2) return [];
+    if (trimmed.length < MIN_QUERY_LENGTH) return [];
     return indexer.search(trimmed, 10);
   }, [query, indexer]);
 
@@ -120,7 +130,7 @@ export function FaqSearchScreen() {
             </div>
 
             {/* Label resultados */}
-            {query.trim().length >= 2 && (
+            {query.trim().length >= MIN_QUERY_LENGTH && (
               <p className="text-sm font-semibold leading-4 text-gray-900">
                 {hits.length > 0
                   ? 'Resultados da busca'

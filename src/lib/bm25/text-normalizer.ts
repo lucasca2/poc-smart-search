@@ -1,5 +1,3 @@
-import { PORTUGUESE_STOP_WORDS } from './stop-words.pt';
-
 /**
  * Pipeline de normalização e tokenização para o índice BM25.
  *
@@ -9,10 +7,10 @@ import { PORTUGUESE_STOP_WORDS } from './stop-words.pt';
  *  4. mantém apenas letras Unicode, dígitos e whitespace
  *  5. split por whitespace
  *  6. descarta tokens com menos de 2 chars
- *  7. descarta stopwords pt-BR
  *
- * Importante: as stopwords são comparadas **após** a remoção de acentos,
- * portanto a lista também precisa estar sem acento.
+ * Stopwords NÃO são removidas aqui — quem decide o peso de uma stopword
+ * é o `Bm25Indexer` (multiplicador `STOPWORD_WEIGHT` no scoring). A função
+ * `tokenize` deve permanecer "pura": apenas normaliza e quebra o texto.
  */
 
 const HTML_TAG_REGEX = /<[^>]*>/g;
@@ -45,10 +43,7 @@ export function tokenize(input: string | null | undefined): string[] {
 
   return normalized
     .split(WHITESPACE_REGEX)
-    .filter(
-      (token) =>
-        token.length >= MIN_TOKEN_LENGTH && !PORTUGUESE_STOP_WORDS.has(token),
-    );
+    .filter((token) => token.length >= MIN_TOKEN_LENGTH);
 }
 
 /**
