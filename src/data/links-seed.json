@@ -1,0 +1,165 @@
+[
+  {
+    "identifier": "link_invoices_screen",
+    "label": "Minhas faturas",
+    "link": "/tabs/invoices",
+    "keywords": [
+      "fatura",
+      "faturas",
+      "segunda via",
+      "boleto",
+      "conta"
+    ],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "link_pix_payment",
+    "label": "Pagar com Pix",
+    "link": "/tabs/invoices/pix",
+    "keywords": [
+      "pix",
+      "pagamento",
+      "pagar",
+      "qr code",
+      "copia e cola"
+    ],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "link_change_due_date",
+    "label": "Alterar vencimento",
+    "link": "/tabs/invoices/due-date",
+    "keywords": [
+      "vencimento",
+      "alterar data",
+      "mudar dia",
+      "dia da fatura"
+    ],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "link_change_address",
+    "label": "Endereço de instalação",
+    "link": "/account/installation-address",
+    "keywords": [
+      "endereço",
+      "mudança",
+      "alterar endereço",
+      "instalação",
+      "mudar de casa"
+    ],
+    "category": {
+      "identifier": "faq_category_my_account",
+      "title": "Meu Cadastro"
+    }
+  },
+  {
+    "identifier": "link_personal_data",
+    "label": "Meus dados",
+    "link": "/account/profile",
+    "keywords": [
+      "alterar perfil",
+      "dados pessoais",
+      "atualizar cadastro",
+      "nome",
+      "email",
+      "telefone"
+    ],
+    "category": {
+      "identifier": "faq_category_my_account",
+      "title": "Meu Cadastro"
+    }
+  },
+  {
+    "identifier": "link_internet_plan",
+    "label": "Meu plano de internet",
+    "link": "/tabs/plan/internet",
+    "keywords": [
+      "plano",
+      "internet",
+      "velocidade",
+      "fibra",
+      "wifi",
+      "mega",
+      "giga"
+    ],
+    "category": {
+      "identifier": "faq_category_internet_plan",
+      "title": "Plano de Internet"
+    }
+  },
+  {
+    "identifier": "link_mobile_plan",
+    "label": "Meu plano móvel",
+    "link": "/tabs/plan/mobile",
+    "keywords": [
+      "plano celular",
+      "movel",
+      "franquia",
+      "internet movel",
+      "minutos"
+    ],
+    "category": {
+      "identifier": "faq_category_mobile_plan",
+      "title": "Plano Móvel"
+    }
+  },
+  {
+    "identifier": "link_anti_spam",
+    "label": "Anti-Spam",
+    "link": "/services/anti-spam",
+    "keywords": [
+      "anti spam",
+      "antispam",
+      "bloqueio chamadas",
+      "telemarketing",
+      "ligações indesejadas"
+    ],
+    "category": {
+      "identifier": "faq_category_digital_services",
+      "title": "Serviços Digitais"
+    }
+  },
+  {
+    "identifier": "link_recharge_prepaid",
+    "label": "Recarregar pré-pago",
+    "link": "/tabs/prepaid/recharge",
+    "keywords": [
+      "recarga",
+      "recarregar",
+      "pre pago",
+      "credito",
+      "saldo"
+    ],
+    "category": {
+      "identifier": "faq_category_prepaid_mobile",
+      "title": "Celular pré-pago"
+    }
+  },
+  {
+    "identifier": "link_tech_support",
+    "label": "Suporte técnico",
+    "link": "/support",
+    "keywords": [
+      "suporte",
+      "ajuda tecnica",
+      "problema",
+      "sem internet",
+      "lento",
+      "intermitente"
+    ],
+    "category": {
+      "identifier": "faq_category_tech_support",
+      "title": "Suporte Técnico"
+    }
+  }
+]

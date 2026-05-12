@@ -1,0 +1,482 @@
+[
+  {
+    "identifier": "faq_item_update_personal_data",
+    "question": "Como atualizar meus dados (nome, e-mail, telefone)?",
+    "answer": "É possível atualizar seus dados direto pelo app. É só acessar o menu \"Perfil\" e tocar no seu nome. Lá você encontra todos os seus dados cadastrados - para alterar, basta tocar no campo desejado e atualizar a informação.",
+    "keywords": ["dados pessoais", "perfil", "atualizar cadastro", "nome", "telefone"],
+    "category": {
+      "identifier": "faq_category_my_account",
+      "title": "Meu Cadastro"
+    }
+  },
+  {
+    "identifier": "faq_item_change_address",
+    "question": "Como alterar meu endereço?",
+    "answer": "Abra o app e acesse a opção \"Endereço de Instalação\". Em seguida, toque em \"Alterar endereço\" e siga as instruções para atualizar seus dados.",
+    "keywords": ["endereço", "mudança", "instalação"],
+    "category": {
+      "identifier": "faq_category_my_account",
+      "title": "Meu Cadastro"
+    }
+  },
+  {
+    "identifier": "faq_item_official_channels",
+    "question": "Quais são os canais oficiais de atendimento?",
+    "answer": "Estamos disponíveis pelos seguintes canais:\n• WhatsApp Empresas: (34) 9 9779-0112\n• WhatsApp Pessoa Física: (34) 9 9884-0123\n• Ouvidoria: 0800-942-6000\n• Atendimento geral: 10312",
+    "keywords": ["atendimento", "contato", "whatsapp", "ouvidoria", "telefone"],
+    "category": {
+      "identifier": "faq_category_my_account",
+      "title": "Meu Cadastro"
+    }
+  },
+  {
+    "identifier": "faq_item_invoice_second_copy",
+    "question": "Como emitir a 2ª via da minha fatura?",
+    "answer": "É mais fácil e rápido emitir a 2a via pelo app. Ao abrir a tela inicial, aparecerá as faturas em aberto. Clique em \"Mais detalhes\" e em seguida, clique em \"Baixar 2ª via\".",
+    "keywords": ["segunda via", "fatura", "boleto"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_pix_automatic",
+    "question": "O que é o pix automático e como ativá-lo?",
+    "answer": "Com o novo pix automático da Algar, sua fatura é paga direto no banco, sem precisar lembrar todo mês ou se preocupar com vencimento. Você ativa uma vez e pronto, os próximos pagamentos são feitos automaticamente via pix, com praticidade e segurança. Veja como funciona na prática: 1. Acesse o app da Algar e copie o código pix da sua fatura. 2. Vá até o app do seu banco, cole o código e faça o pagamento. 3. Após a conclusão do pix, autorize o pagamento recorrente via Pix Automático. Pronto! A partir daí, suas próximas faturas serão pagas automaticamente. Ah, você pode ativar em qualquer banco de sua preferência. Além disso, você continua no controle: pode definir um valor máximo para cobrança e cancelar a qualquer momento.",
+    "keywords": ["pix", "pagamento recorrente", "automatico", "fatura"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_pix_vs_debit",
+    "question": "Qual a diferença entre Pix Automático e Débito Automático?",
+    "answer": "O Pix Automático é uma funcionalidade do sistema do Banco Central que permite pagamentos recorrentes com autorização digital única. Isso traz maior flexibilidade e autonomia para o usuário. Já o débito automático é um convênio tradicional entre empresas e bancos, mais restrito e burocrático, dependendo de relações bilaterais para seu funcionamento. Se você tem bancos digitais por exemplo, o Pix Automático é a melhor escolha.",
+    "keywords": ["pix automatico", "debito automatico", "diferenca", "pagamento"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_invoice_increase",
+    "question": "Por que minha fatura aumentou ou foi reajustada?",
+    "answer": "O valor da fatura pode ser reajustado conforme previsto pela resolução 632/2014. Em 2025, por exemplo, os reajustes são de 5,40% para telefonia fixa (IST) e de 5,40% para banda larga, móvel e serviços adicionais (IPCA).",
+    "keywords": ["reajuste", "aumento fatura", "ipca", "ist"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_change_invoice_email",
+    "question": "Como alterar o e-mail de recebimento da fatura?",
+    "answer": "Na tela inicial do app, toque em \"Mais detalhes\" dentro da seção \"Minhas Faturas\". Selecione a fatura atual, depois vá em \"Conta Digital\". Encontre o e-mail cadastrado e clique para editar e salvar a nova informação.",
+    "keywords": ["email fatura", "alterar email", "conta digital"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_change_due_date",
+    "question": "Posso mudar a data de vencimento?",
+    "answer": "Sim! Na página inicial do app, clique em \"Mais Detalhes\" em \"Minhas faturas\", escolha a fatura atual e selecione a opção \"Alterar vencimento\". Depois, é só escolher o dia que preferir e confirmar.",
+    "keywords": ["vencimento", "alterar data", "fatura"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_invoice_delivery",
+    "question": "Como escolher onde receber minha fatura?",
+    "answer": "Acesse \"Faturas\" na barra inferior do app e selecione a fatura atual. Certifique-se de que a opção \"Conta Digital\" está ativada. Para alterar o e-mail de recebimento, toque em \"Recebimento de conta\" e atualize o e-mail cadastrado. Você pode escolher entre e-mail ou envio físico pelos Correios.",
+    "keywords": ["recebimento fatura", "conta digital", "correios", "email"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_payment_methods",
+    "question": "Quais formas de pagamento estão disponíveis?",
+    "answer": "Você pode pagar sua fatura por:\n• PIX (copia e cola)\n• Boleto (inclusive via código de barras: \"copiar e colar\")\n• Débito automático\n• Presencialmente: em agências bancárias, lotéricas e Correios",
+    "keywords": ["formas de pagamento", "pix", "boleto", "debito automatico", "loterica"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_unblock_time",
+    "question": "Quanto tempo demora para o desbloqueio ser realizado após o pagamento?",
+    "answer": "O desbloqueio do serviço ocorre assim que identificamos o pagamento. O prazo varia de acordo com o método utilizado: • Pix: em poucos minutos • Lotérica (sem fatura): no mesmo dia • Lotérica (com fatura) ou bancos: até 2 dias úteis • Débito automático: até 2 dias úteis • Correios ou canais alternativos: até 4 dias úteis • Boleto: de 1 a 2 dias úteis",
+    "keywords": ["desbloqueio", "prazo pagamento", "compensacao"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_modem_return",
+    "question": "Posso entregar o modem em uma loja da Algar?",
+    "answer": "Não. A devolução deve ser feita exclusivamente por meio de uma equipe técnica autorizada da Algar ou empresa parceira. O recolhimento é agendado após sua solicitação.",
+    "keywords": ["devolucao modem", "entregar equipamento"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_loyalty_cancel",
+    "question": "O que acontece se eu cancelar antes do fim da fidelidade?",
+    "answer": "Se o cancelamento ocorrer antes do fim do período de fidelidade, será cobrada uma multa proporcional ao tempo restante do contrato. O valor é calculado com base nos benefícios concedidos no momento da contratação.",
+    "keywords": ["fidelidade", "multa", "cancelamento", "rescisao"],
+    "category": {
+      "identifier": "faq_category_billing",
+      "title": "Pagamentos"
+    }
+  },
+  {
+    "identifier": "faq_item_request_support",
+    "question": "Como solicitar suporte técnico?",
+    "answer": "No app da Algar, na página inicial, clique no card de \"Suporte técnico\", selecione o produto que deseja suporte e inicie o processo. Siga o fluxo para, se necessário, solicitar visita do técnico no seu endereço.",
+    "keywords": ["suporte tecnico", "abrir chamado", "ajuda"],
+    "category": {
+      "identifier": "faq_category_tech_support",
+      "title": "Suporte Técnico"
+    }
+  },
+  {
+    "identifier": "faq_item_reschedule_visit",
+    "question": "Como reagendar ou cancelar uma visita?",
+    "answer": "Pelo app, clique no card \"Suporte técnico\" na página inicial. Em seguida, clique em \"Gerenciar visita técnica\" para reagendar, cancelar, ou acompanhar o deslocamento do técnico.",
+    "keywords": ["reagendar visita", "cancelar visita", "tecnico"],
+    "category": {
+      "identifier": "faq_category_tech_support",
+      "title": "Suporte Técnico"
+    }
+  },
+  {
+    "identifier": "faq_item_visit_cost",
+    "question": "A visita técnica tem custo?",
+    "answer": "A visita técnica não tem custo, com exceção dos casos de troca de modem por mudança de ponto interno.",
+    "keywords": ["custo visita", "preco tecnico", "gratis"],
+    "category": {
+      "identifier": "faq_category_tech_support",
+      "title": "Suporte Técnico"
+    }
+  },
+  {
+    "identifier": "faq_item_internet_down",
+    "question": "O que fazer se a internet parou de funcionar?",
+    "answer": "Você pode iniciar um teste diretamente pelo app: 1. Na página inicial, clique no card de \"Suporte técnico\", escolha o produto e inicie o suporte remoto. 2. O sistema fará 5 etapas de validação, que podem levar até 5 minutos. Nesta etapa, seu modem será resetado para reestabelecer a conexão. 3. Ao final, você será questionado se a conexão foi restabelecida. 4. Caso o problema persista, o app irá sugerir um checklist de soluções conforme o tipo de falha. 5. Se ainda assim a conexão não for normalizada, será possível agendar uma visita técnica.",
+    "keywords": ["internet caiu", "sem conexao", "internet nao funciona", "teste internet"],
+    "category": {
+      "identifier": "faq_category_tech_support",
+      "title": "Suporte Técnico"
+    }
+  },
+  {
+    "identifier": "faq_item_dual_band",
+    "question": "Por que tenho duas redes (2.4GHz e 5GHz)?",
+    "answer": "Alguns modens da Algar operam com tecnologia Dual Band, oferecendo duas redes: • 2.4GHz: mais alcance, ideal para ambientes maiores ou com barreiras físicas. • 5GHz: maior velocidade, ideal para curtas distâncias e dispositivos próximos ao modem. A disponibilidade dessa função depende do modelo do seu equipamento e da viabilidade técnica da sua região.",
+    "keywords": ["dual band", "2.4ghz", "5ghz", "redes wifi"],
+    "category": {
+      "identifier": "faq_category_internet_plan",
+      "title": "Plano de Internet"
+    }
+  },
+  {
+    "identifier": "faq_item_wifi6",
+    "question": "O que é Wi-Fi 6 e quais as vantagens?",
+    "answer": "O Wi-Fi 6 (ou Super Wi-Fi Algar) é a nova geração de conexão sem fio, com desempenho superior. Suas principais vantagens são: • Maior velocidade e estabilidade • Menor interferência • Melhor desempenho com múltiplos dispositivos conectados • Alcance otimizado em diferentes ambientes da casa\nIdeal para residências com muitos aparelhos conectados, como TVs, celulares, notebooks e dispositivos inteligentes",
+    "keywords": ["wifi 6", "super wifi", "internet rapida"],
+    "category": {
+      "identifier": "faq_category_internet_plan",
+      "title": "Plano de Internet"
+    }
+  },
+  {
+    "identifier": "faq_item_signal_coverage",
+    "question": "O que fazer se o sinal não chega bem em alguns ambientes?",
+    "answer": "Se o sinal de Wi-Fi não alcança bem todos os cômodos da sua casa, o Super Wi-Fi da Algar pode ajudar. O serviço avalia a cobertura do sinal e, se necessário, instala roteadores adicionais para garantir uma conexão forte e estável em toda a residência. Todo o processo de instalação, configuração, manutenção e suporte técnico é feito pela equipe Algar. Consulte um de nossos vendedores pelos nossos canais de venda do WhatsApp ou acesse: https://loja.algar.com.br.",
+    "keywords": ["sinal fraco", "cobertura wifi", "repetidor", "alcance"],
+    "category": {
+      "identifier": "faq_category_internet_plan",
+      "title": "Plano de Internet"
+    }
+  },
+  {
+    "identifier": "faq_item_modem_setup",
+    "question": "Como configurar meu modem ou roteador?",
+    "answer": "O modem é configurado automaticamente no momento da instalação. Caso precise de ajustes posteriores, entre em contato com nossos canais de atendimento.",
+    "keywords": ["configurar modem", "roteador", "instalacao"],
+    "category": {
+      "identifier": "faq_category_internet_plan",
+      "title": "Plano de Internet"
+    }
+  },
+  {
+    "identifier": "faq_item_balance_vs_data",
+    "question": "Qual a diferença entre saldo e dados móveis?",
+    "answer": "O saldo representa os créditos em reais disponíveis em sua linha pré-paga, podendo ser usados para ligações, SMS ou serviços avulsos. Já os dados móveis correspondem à quantidade de internet (em MB ou GB) que você pode utilizar para navegar, assistir vídeos e usar aplicativos pela rede móvel 3G, 4G ou 5G.",
+    "keywords": ["saldo", "dados moveis", "diferenca", "credito"],
+    "category": {
+      "identifier": "faq_category_mobile_plan",
+      "title": "Plano Móvel"
+    }
+  },
+  {
+    "identifier": "faq_item_track_data_usage",
+    "question": "Como acompanhar meu consumo de dados?",
+    "answer": "Para consultar seu consumo de dados, acesse a página inicial do app Algar. A informação aparece logo no início. Se quiser detalhes mais específicos, toque na opção \"Uso Detalhado\".",
+    "keywords": ["consumo dados", "acompanhar internet", "uso detalhado"],
+    "category": {
+      "identifier": "faq_category_mobile_plan",
+      "title": "Plano Móvel"
+    }
+  },
+  {
+    "identifier": "faq_item_data_alerts",
+    "question": "Recebo alertas quando os dados estão acabando?",
+    "answer": "Sim. A Algar envia alertas por SMS quando a franquia de internet está próxima do fim. Também é possível contratar pacotes adicionais diretamente no app. Você também pode acompanhar em tempo real no app quanto já foi utilizado e quanto ainda está disponível.",
+    "keywords": ["alerta dados", "franquia", "sms aviso"],
+    "category": {
+      "identifier": "faq_category_mobile_plan",
+      "title": "Plano Móvel"
+    }
+  },
+  {
+    "identifier": "faq_item_4g_or_5g",
+    "question": "Minha internet móvel é 4G ou 5G?",
+    "answer": "A Algar oferece cobertura nas tecnologias 4G e 5G. Atualmente, o 5G está disponível em quatro estados, trinta e dois municípios e cento e oitenta e cinco bairros. Para usar o 5G, você precisa ter um aparelho compatível. Para verificar, acesse as configurações do seu celular, vá em conexões > redes móveis > seleção de banda e veja se a opção 5G está disponível. Caso queira ativar, basta selecionar essa opção no mesmo menu.",
+    "keywords": ["4g", "5g", "tecnologia rede", "cobertura"],
+    "category": {
+      "identifier": "faq_category_mobile_plan",
+      "title": "Plano Móvel"
+    }
+  },
+  {
+    "identifier": "faq_item_roaming_cost",
+    "question": "Existe custo adicional para usar dados fora da minha cidade?",
+    "answer": "A resposta para essa pergunta depende do plano contratado. Para confirmar as condições do seu plano, recomendamos consultar o app Algar ou entrar em contato com nossos canais de atendimento.",
+    "keywords": ["roaming nacional", "viagem", "outra cidade"],
+    "category": {
+      "identifier": "faq_category_mobile_plan",
+      "title": "Plano Móvel"
+    }
+  },
+  {
+    "identifier": "faq_item_esim_explained",
+    "question": "O que é e-SIM e como funciona?",
+    "answer": "O e-SIM é um chip digital integrado ao aparelho, que substitui o chip físico tradicional. Com ele, não é necessário inserir nada no celular. Basta receber um QR Code da Algar, escanear com o seu dispositivo e pronto, o número estará ativo. Todo o processo é feito de forma 100% digital.",
+    "keywords": ["esim", "chip digital", "ativacao"],
+    "category": {
+      "identifier": "faq_category_mobile_plan",
+      "title": "Plano Móvel"
+    }
+  },
+  {
+    "identifier": "faq_item_esim_advantages",
+    "question": "Quais as vantagens de ter um e-SIM?",
+    "answer": "O e-SIM oferece mais flexibilidade. Você pode, por exemplo, ativar planos internacionais sem sair de casa. É uma solução ideal para empresas com vários dispositivos, facilitando a gestão remota e eliminando a necessidade de trocas físicas. Também é útil para quem usa mais de uma operadora, permitindo alternar entre elas de forma prática.",
+    "keywords": ["esim vantagens", "beneficios chip digital"],
+    "category": {
+      "identifier": "faq_category_mobile_plan",
+      "title": "Plano Móvel"
+    }
+  },
+  {
+    "identifier": "faq_item_internet_other_states",
+    "question": "Posso usar minha internet em outros estados?",
+    "answer": "Sim. Você pode utilizar a internet da Algar em outros estados do Brasil por meio do serviço de roaming nacional. Isso permite navegar, fazer chamadas e enviar SMS utilizando redes de operadoras parceiras, mesmo fora da sua área de cobertura.",
+    "keywords": ["roaming nacional", "outros estados", "viagem brasil"],
+    "category": {
+      "identifier": "faq_category_mobile_plan",
+      "title": "Plano Móvel"
+    }
+  },
+  {
+    "identifier": "faq_item_international_roaming",
+    "question": "Meus dados funcionam no exterior?",
+    "answer": "Para usar o celular no exterior, é necessário ativar previamente o serviço de Roaming Internacional da Algar. Requisitos: • Disponível apenas para clientes pós-pago com mais de 3 meses de plano ativo e sem pendências financeiras • Não disponível para planos pré-pago ou controle. Antes da viagem, siga os passos: 1. Tenha um chip internacional da Algar. Se ainda não tiver, solicite a troca em uma loja própria 2. Ative o roaming internacional pelos nossos canais de atendimento ou presencialmente em uma loja Algar 3. Escolha um dos pacotes disponíveis: • Roaming com validade de 15 dias • Roaming com renovação mensal (prazo indeterminado) Durante a viagem, você receberá alertas por SMS sobre o consumo do pacote, com opção de contratar dados adicionais, se necessário. Importante: sem a ativação, os dados móveis não funcionarão no exterior. A ativação pode levar até 24 horas úteis, então recomendamos fazer o pedido com antecedência.",
+    "keywords": ["roaming internacional", "viagem exterior", "exterior"],
+    "category": {
+      "identifier": "faq_category_mobile_plan",
+      "title": "Plano Móvel"
+    }
+  },
+  {
+    "identifier": "faq_item_check_balance",
+    "question": "Como consultar meu saldo?",
+    "answer": "Ao acessar o app da Algar, localize seu produto pré-pago na página inicial, e visualize seu saldo. Caso queira saber mais do seu consumo, clique em \"Uso detalhado\".",
+    "keywords": ["consultar saldo", "ver saldo", "credito"],
+    "category": {
+      "identifier": "faq_category_prepaid_mobile",
+      "title": "Celular pré-pago"
+    }
+  },
+  {
+    "identifier": "faq_item_data_finished",
+    "question": "O que acontece se meus dados acabarem?",
+    "answer": "Quando os dados da franquia terminam, a velocidade da internet é reduzida automaticamente para 64 Kbps. Se quiser continuar navegando com velocidade normal, você pode adquirir um pacote extra pelo app. Basta clicar em \"Comprar dados\" na página inicial, na aba de Seus Produtos. Dentro de \"Uso detalhado\" também é possível comprar mais dados.",
+    "keywords": ["dados acabaram", "internet lenta", "pacote extra"],
+    "category": {
+      "identifier": "faq_category_prepaid_mobile",
+      "title": "Celular pré-pago"
+    }
+  },
+  {
+    "identifier": "faq_item_accumulate_data",
+    "question": "Posso acumular dados de um mês para outro?",
+    "answer": "Não. Os dados contratados são válidos apenas dentro do ciclo vigente e não são acumuláveis para o mês seguinte.",
+    "keywords": ["acumular dados", "rollover", "validade franquia"],
+    "category": {
+      "identifier": "faq_category_prepaid_mobile",
+      "title": "Celular pré-pago"
+    }
+  },
+  {
+    "identifier": "faq_item_recharge_app",
+    "question": "Como fazer recarga no app?",
+    "answer": "Na barra inferior do app, toque em \"Recarga\" e siga os passos: 1. Escolha o tipo de recarga: única, programada, ou recarga de banda larga 2. Selecione o valor desejado 3. Escolha o método de pagamento 4. Finalize o pagamento Pronto! A recarga será processada de acordo com a forma de pagamento escolhida.",
+    "keywords": ["recarga", "recarregar celular", "credito"],
+    "category": {
+      "identifier": "faq_category_prepaid_mobile",
+      "title": "Celular pré-pago"
+    }
+  },
+  {
+    "identifier": "faq_item_recharge_pix",
+    "question": "Posso recarregar via Pix?",
+    "answer": "Sim. Você pode fazer recargas utilizando Pix (copia e cola) ou cartão de crédito. Ambas as opções estão disponíveis diretamente no app.",
+    "keywords": ["recarga pix", "cartao credito", "metodo pagamento"],
+    "category": {
+      "identifier": "faq_category_prepaid_mobile",
+      "title": "Celular pré-pago"
+    }
+  },
+  {
+    "identifier": "faq_item_scheduled_recharge",
+    "question": "É possível agendar recarga programada?",
+    "answer": "Sim. A recarga programada pode ser ativada pelo app Algar, com cobrança recorrente no cartão de crédito. É possível escolher se a recarga é feita a cada sete, quinze ou trinta dias.",
+    "keywords": ["recarga programada", "recorrente", "agendamento"],
+    "category": {
+      "identifier": "faq_category_prepaid_mobile",
+      "title": "Celular pré-pago"
+    }
+  },
+  {
+    "identifier": "faq_item_streaming_included",
+    "question": "Quais streamings estão incluídos no meu plano?",
+    "answer": "Seu plano pode oferecer acesso a plataformas como Globoplay, SKY, Paramount+, Premiere, MAX, Telecine, entre outros. A disponibilidade varia conforme a oferta contratada. Para consultar os streamings disponíveis no seu plano, acesse o app da Algar, e estarão disponíveis na sessão de produtos contratados.",
+    "keywords": ["streaming", "globoplay", "max", "telecine", "paramount"],
+    "category": {
+      "identifier": "faq_category_digital_services",
+      "title": "Serviços Digitais"
+    }
+  },
+  {
+    "identifier": "faq_item_streaming_activate",
+    "question": "Como ativar ou acessar os streamings?",
+    "answer": "Acesse o site oficial da Algar e selecione a opção \"Serviços Digitais\" no menu. Em seguida, escolha o serviço desejado e siga o passo a passo para ativação. Depois disso, é só acessar a plataforma com seu login e começar a assistir.",
+    "keywords": ["ativar streaming", "acessar streaming", "login"],
+    "category": {
+      "identifier": "faq_category_digital_services",
+      "title": "Serviços Digitais"
+    }
+  },
+  {
+    "identifier": "faq_item_multi_device",
+    "question": "Posso assistir em mais de um dispositivo?",
+    "answer": "As regras de uso variam de acordo com cada plataforma. Para confirmar em quantos dispositivos você pode acessar o conteúdo, verifique diretamente no site ou app do serviço de streaming.",
+    "keywords": ["dispositivos simultaneos", "multiplas telas"],
+    "category": {
+      "identifier": "faq_category_digital_services",
+      "title": "Serviços Digitais"
+    }
+  },
+  {
+    "identifier": "faq_item_streaming_payment",
+    "question": "Como funciona o pagamento dos streamings?",
+    "answer": "O valor das assinaturas dos streamings contratados é cobrado diretamente na sua fatura Algar, de forma prática e integrada.",
+    "keywords": ["pagamento streaming", "cobranca fatura"],
+    "category": {
+      "identifier": "faq_category_digital_services",
+      "title": "Serviços Digitais"
+    }
+  },
+  {
+    "identifier": "faq_item_super_wifi",
+    "question": "O que é e como funciona o Super Wi-Fi?",
+    "answer": "O Super Wi-Fi reforça o sinal da sua internet por meio de dois ou mais roteadores Wi-Fi 6 posicionados estrategicamente na sua casa. Isso garante uma conexão forte e estável em todos os ambientes. O serviço inclui instalação, manutenção e suporte técnico.",
+    "keywords": ["super wifi", "mesh", "cobertura"],
+    "category": {
+      "identifier": "faq_category_digital_services",
+      "title": "Serviços Digitais"
+    }
+  },
+  {
+    "identifier": "faq_item_noping_gaming",
+    "question": "Quais as vantagens do NoPing para jogos online?",
+    "answer": "O NoPing é ideal para quem joga online, pois reduz o ping, corrige perdas de pacotes e evita quedas de conexão. Ele usa um algoritmo inteligente que desvia de rotas com problemas, garantindo melhor tempo de resposta em qualquer jogo.",
+    "keywords": ["noping", "jogos online", "ping", "gamer"],
+    "category": {
+      "identifier": "faq_category_digital_services",
+      "title": "Serviços Digitais"
+    }
+  },
+  {
+    "identifier": "faq_item_helptec",
+    "question": "O que está incluso no HelpTec ou assistências residenciais?",
+    "answer": "O HelpTec oferece suporte técnico remoto para ajudar com problemas em celulares, computadores, impressoras e outros dispositivos eletrônicos. Já os planos da linha Reparos oferecem assistência residencial, com opções para diferentes perfis: • Reparos: serviços básicos para a casa - A partir de R$ 19,90/mês • Reparos Plus: inclui mais tipos de consertos - A partir de R$ 25,90/mês • Reparos + Pet: assistência residencial + suporte para pets - A partir de R$29,90/mês • Reparos Plus + Pet: pacote completo para casa e pets - A partir de R$ 35,90/mês",
+    "keywords": ["helptec", "reparos", "assistencia residencial"],
+    "category": {
+      "identifier": "faq_category_digital_services",
+      "title": "Serviços Digitais"
+    }
+  },
+  {
+    "identifier": "faq_item_skeelo",
+    "question": "O que é o Skeelo e como acessar?",
+    "answer": "O Skeelo é um aplicativo de leitura incluído nos planos de celular e internet da Algar. Ele oferece diversos conteúdos como Aya Books, Aya Kids, Aya Audiobooks, Skeelo Ebooks, Minibooks e mais. Para acessar, baixe o aplicativo correspondente e faça login com o CPF utilizado na contratação do seu plano. Verifique no app Algar quais opções estão disponíveis para você.",
+    "keywords": ["skeelo", "leitura", "ebooks", "audiobooks"],
+    "category": {
+      "identifier": "faq_category_digital_services",
+      "title": "Serviços Digitais"
+    }
+  },
+  {
+    "identifier": "faq_item_nomo_music",
+    "question": "O que é o NOMO Music?",
+    "answer": "O NOMO Music é o serviço de streaming de áudio da Algar. Ele reúne mais de 130 milhões de músicas, além de rádios, podcasts e audiobooks. A plataforma usa inteligência artificial para personalizar sua experiência e não possui anúncios. Você pode assinar o NOMO individualmente ou contratá-lo junto com outros serviços da Algar pelo site oficial.",
+    "keywords": ["nomo music", "musica", "streaming audio", "podcast"],
+    "category": {
+      "identifier": "faq_category_digital_services",
+      "title": "Serviços Digitais"
+    }
+  },
+  {
+    "identifier": "faq_item_app_features",
+    "question": "O que posso fazer pelo app Algar?",
+    "answer": "Pelo app Algar, você acessa diversos serviços com praticidade e rapidez. Entre as principais funcionalidades, estão: • Solicitação da 2ª via da fatura • Pagamento da fatura • Suporte técnico • Verificação da conexão de internet banda larga • Alteração da data de vencimento da fatura • Consulta de saldo disponível • Acompanhamento do consumo de dados de internet móvel • Pagamento por Pix • Recargas únicas e programadas • Negociação de valores em aberto • Atualização do e-mail para envio da fatura ou solicitação de fatura impressa • Alteração do endereço de instalação • Ativação do débito automático • Acompanhamento do status das solicitações E muito mais. O app está em constante evolução para oferecer novos serviços e facilitar seu dia a dia.",
+    "keywords": ["funcionalidades app", "o que app faz", "servicos"],
+    "category": {
+      "identifier": "faq_category_app",
+      "title": "App Algar"
+    }
+  },
+  {
+    "identifier": "faq_item_update_app",
+    "question": "Como atualizar meu app Algar?",
+    "answer": "É simples! Acesse a loja de aplicativos do seu celular (App Store ou Google Play), pesquise por \"Algar\" e, se houver uma atualização disponível, toque em \"Atualizar\". Vale lembrar que, em alguns casos, as atualizações são feitas automaticamente pelo sistema do seu celular.",
+    "keywords": ["atualizar app", "nova versao", "play store", "app store"],
+    "category": {
+      "identifier": "faq_category_app",
+      "title": "App Algar"
+    }
+  }
+]

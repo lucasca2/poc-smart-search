@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Smart Search POC — Algar
 
-## Getting Started
+POC do spike **AA-1796**: busca por relevância no FAQ usando **BM25** com
+índice invertido in-memory. O objetivo aqui é o time conseguir **testar a
+funcionalidade** (qualidade dos resultados) num app web simples, sem depender
+do BFF.
 
-First, run the development server:
+A medição de performance/memória já foi feita anteriormente dentro do
+`proxy-algar` — essa POC foca apenas em UX.
+
+## Como rodar
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra http://localhost:3000 — o "celular fake" centralizado simula a tela
+"Central de ajuda" do app. Digite na barra de busca e veja os resultados
+ranqueados em tempo real.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Onde mexer
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Dataset**: [src/data/faq-seed.json](src/data/faq-seed.json) — mesmo shape
+  retornado por `CmsService.getAllFaqItemsForSearch()` no BFF. Para testar com
+  outros conteúdos, é só editar esse JSON.
+- **Lógica BM25**: [src/lib/bm25/](src/lib/bm25/) — `text-normalizer`,
+  `stop-words.pt` e `bm25-indexer`. Portado 1:1 do BFF (sem o lifecycle do
+  NestJS).
+- **Helper**: [src/lib/faq-search.ts](src/lib/faq-search.ts) — singleton que
+  constrói o índice na primeira chamada.
+- **UI**: [src/components/FaqSearchScreen.tsx](src/components/FaqSearchScreen.tsx)
+  baseada no design do Figma (node `40011958:56854`).
 
-## Learn More
+## Parâmetros do BM25
 
-To learn more about Next.js, take a look at the following resources:
+Definidos como `readonly` em [src/lib/bm25/bm25-indexer.ts](src/lib/bm25/bm25-indexer.ts):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Parâmetro | Valor | Observação |
+|---|---|---|
+| `k1` | 1.5 | Saturação da TF (range usual: 1.2–2.0) |
+| `b` | 0.75 | Normalização por tamanho do campo (range: 0.5–0.8) |
+| Peso `question` | 3× | Match na pergunta vale mais |
+| Peso `keywords` | 2× | Keywords curadas no CMS |
+| Peso `answer` | 1× | Texto da resposta |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A variante usada é **BM25+** (IDF garantidamente não-negativo).
 
-## Deploy on Vercel
+## Debug
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Cada resultado mostra um `<details>` com o score BM25 — útil pra entender por
+que um item ficou acima do outro.
